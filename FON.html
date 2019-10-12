@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FON</title>
+</head>
+<body>
+<center>
+<button onclick="click_me()">Click me!</button>
+</center>
+</body>
+<script>
+    function click_me() {
+       red = Math.floor(Math.random()*255)+1
+       green = Math.floor(Math.random()*255)+1
+        blue = Math.floor(Math.random()*255)+1
+
+        document.body.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')'
+    }
+</script>
+</html>
